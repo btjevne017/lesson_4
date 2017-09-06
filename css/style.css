@@ -1,14 +1,31 @@
+/*
+COLORS
+dark blue:#1E4F7F
+light blue:#88C4FF
+lighter Blue:#3C9EFF
+Navy blue:#44627F
+blue:#307ECC
+
+*/
+
+
 body {
     background-color: none;
+    color:#307ECC;
 }
 
 #header {
     width:100%;
-    background-color:beige;
+    background-color:none;
+    min-height: 80px;
 }
 
 #header > h1{
-    margin:0;
+  margin: 0;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    position: relative;
+    transform: translateY(50%); 
 }
 
 #nav {
