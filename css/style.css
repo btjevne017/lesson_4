@@ -122,18 +122,33 @@ body {
 }
 #main-content-wrapper #skills span {
     font-weight: 400;
-   /* 12.43 video 4*/
+    
 }
 #aside-content-wrapper {
-    background-color: plum;
+    background-color: #fff;
     width:35%;
+    font-family: 'lato', sans-serif;
 }
-
+#aside-right {
+        margin: 0 50px 0 8px;
+}
+#aside-right h3 {
+      text-align: center;
+}
 footer {
     background-color:coral;
     margin:0;
 }
-
+#latest-work {
+        list-style-type: none;
+}
+/* 505 video 5*/
+#latest-work > li {
+       padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px solid black; 
+}
 footer> h1{
     margin:0;
 }
