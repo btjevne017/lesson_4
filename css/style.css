@@ -12,6 +12,7 @@ blue:#307ECC
 body {
     background-color: none;
     color:#307ECC;
+    font-family: 'lato', sans-serif;
 }
 
 #header {
@@ -23,7 +24,7 @@ body {
 #header > h1{
   margin: 0;
     text-align: center;
-    font-family: 'lato', sans-serif;
+   /* font-family: 'lato', sans-serif; */
     position: relative;
     transform: translateY(50%); 
 }
@@ -32,7 +33,7 @@ body {
        width: 100%;
     background-color: #307ecc;
     min-height: 80px;
-    font-family: 'lato', sans-serif;
+   /* font-family: 'lato', sans-serif; */
     height: auto
 }
 #nav > ul {
@@ -68,7 +69,7 @@ body {
 */
 #middle-wrapper-width {
             display: flex;
-    font-family: 'lato', sans-serif;
+   /* font-family: 'lato', sans-serif; */
     max-width: 960px;
     margin: auto;
 }
@@ -90,7 +91,7 @@ body {
 }
 
 .image-content > h4 {
-    font-family: 'lato', sans-serif;
+  /*  font-family: 'lato', sans-serif; */
     font-weight: 300;
     color: #307ECC;
 }
@@ -127,7 +128,7 @@ body {
 #aside-content-wrapper {
     background-color: #fff;
     width:35%;
-    font-family: 'lato', sans-serif;
+    /*font-family: 'lato', sans-serif;*/
 }
 #aside-right {
         margin: 0 50px 0 8px;
@@ -142,13 +143,46 @@ footer {
 #latest-work {
         list-style-type: none;
 }
-/* 505 video 5*/
+
 #latest-work > li {
        padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
     border-bottom: 1px solid black; 
 }
-footer> h1{
-    margin:0;
+
+#latest-work >li:before {
+    content:'';
+    border-color:transparent #008eef;
+    border-style:solid;
+    border-width: .35em 0 .35em .45em;
+    display: block;
+    height:0;
+    width:0;
+    left: -1em;
+    top: .9em;
+    position:relative;
+}
+#favorite-sites {
+    background-image: url(img/bg.jpeg);
+    border-top: 5px #b2790f solid;
+    border-bottom: 5px #004fb2 solid;
+}
+#favorite-sites ul {
+   list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 40px;
+}
+footer {
+    background-color: #fff;
+    text-align: center;
+  /*  font-family: 'lato', sans-serif;*/
+    min-height: 100px;
+}
+
+footer >h1 {
+    margin: 0;
+    transform: tranlateY(50%)
 }
